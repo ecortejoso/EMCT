@@ -1,0 +1,39 @@
+[PRODUCTS]
+Number_Products = 3
+v0 = GR_3.0
+v1 = IF1
+v2 = IF2
+
+[GR_3.0]
+Version = 3.0
+Module0 = anc.linux.64, 093ba09a80284f3487c4625f1b772fef
+Module1 = opt.linux.32, ea043860297c6b3ed7e45081e47b1673
+Module2 = wd2.linux.64, 3e3004ff698781690071e68632a9202a
+Module3 = s2b.linux.64, 0b4f41fb8c324a3f8bc4d10c21106915
+Module4 = s2t.linux.32, 8a853d32c399f852174e317117cdfea2
+Module5 = s2a.linux.32, 8a853d32c399f852174e317117cdfea2
+Module6 = stt.linux.32, efc3a12c08d7ceb85b7ea32daadb07f6
+Module7 = xyc.linux.64, c15a088e78faf72ad718505ba406d7e5
+Module8 = rwt.linux.32, 6f8937cd1c9951f5f1ec7a77f2d54d7f
+Module9 = iol.linux.64, 056e6b396b7ee9ba748540326d4100f3
+Module10 = opc.linux.64, e34625726aff50dcc75dac73d9f2649d
+Module11 = xyt.linux.32, 6f9c0fed92b1245052a0837ef29efc26
+Module12 = rwc.linux.64, ced3e09d24301eb8089da34ae94c7285
+Module13 = stc.linux.64, 0bdd179d4a17ed081b9162f907b11519
+Module14 = wd1.linux.32, 5c3387196302f0cbf6e421fda7c20dfd
+Module15 = gnt.linux.32, 082095d211985112279889ce93d7329b
+Name = Gestor_ERTMS
+
+
+[IF1]
+Version = 1.0
+Module0 = wpt.linux.32, dbc293fcf1b9c779c3f7b9a164fb8ba0
+Module1 = wpc.linux.64, 344ef1147efe9e245ed9fc288e64c132
+Name = ERTMS_Level_1_Interface
+
+[IF2]
+Version = 1.0
+Module0 = anr.linux.64, bfe209c5c9a41ef963b94a617fb0f2cf
+Module1 = gnr.linux.32, 5c22ccb2ffef3bfac07c5fbfe43ec7ab
+Module2 = ior.linux.64, 26fdd8bcac8229b62ff4f70366c574f3
+Name = ERTMS_Level_2_Interface
